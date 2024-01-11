@@ -1,0 +1,108 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.recetaJugos {
+    color: red;
+    font-family: sans-serif;
+    font-size: 60px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+#muestraRecetas {
+    color: green;
+    font-weight: 600;
+    font-style: italic;
+}
+
+p {
+    color: brown;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.imagenBack1 {
+    background-image: url(../multimedia/jugosbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: contain;
+    width: 500px;
+}
+
+.fotoPina {
+    width: 400px;
+    bottom: 30%;
+    position: absolute;
+    left: 700px;
+    margin: 10px;
+    padding: 10px;
+    border-style: dashed;
+}
+
+.cajaContenedora {
+    background-color: pink;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.CajaRoja {
+    background-color: red;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+.CajaAzul {
+    background-color: blue;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+.CajaVerde {
+    background-color: green;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+.ubicacionGrilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 300px 300px;
+}
+
+.headerGrid {
+    background-color: azure;
+    grid-column: 1/5;
+}
+
+.mainGrilla {
+    grid-column: 1/5;
+}
+
+.footerGrilla {
+    background-color: blanchedalmond;
+    grid-column: 1/5;
+}
+

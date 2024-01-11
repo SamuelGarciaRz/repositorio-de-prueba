@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugos</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="./pages/galeria.html">Galeria</a></li>
+                <li><a href="./pages/ubicacion.html">Ubicacion</a></li>
+                <li><a href="./pages/contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 class="recetaJugos imagenBack1">Recetas de Jugos</h1>
+                <div>
+                    <p  id="muestraRecetas">Les mostramos un video de algunas recetas de jugos</p>
+                    <iframe src="" frameborder="0"></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/bvf0dtTsynI?si=Sw0Q6eWa-wpEd-A5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <h2 class="recetaJugos">¡Dinos cuales son tus gustos!</h2>
+                    <form action="">
+                        <div>
+                            <label for="nombreUsuario">Ingresa tu nombre</label>
+                            <input type="text" name="nombreUsuario">
+                        </div>
+                        <div>
+                            <label for="edad"></label>Edad
+                            <input type="number" name="edad">
+                        </div>
+                        <div>
+                            <label for="correo"></label>Email
+                            <input type="email" placeholder="jugos@gmail.com" name="correo">
+                        </div>
+                        <p>¿Te gustan los jugos naturales?</p>
+                        <div>
+                            <label for="sino"></label>Si
+                            <input type="radio" name="sino">
+                        </div>
+                        <div>
+                            <label for="sino"></label>No
+                            <input type="radio" name="sino">
+                        </div>
+                        <p>De entre estos 3 sabores ¿Cual/es prefieres?</p>
+                        <div>
+                            <label for="piña"></label>Piña
+                            <input type="checkbox" name="piña">
+                        </div>
+                        <div>
+                            <label for="durazno"></label>Durazno
+                            <input type="checkbox" name="durazno">
+                        </div>
+                        <div>
+                            <label for="naranja"></label>Naranja
+                            <input type="checkbox" name="naranja">
+                        </div>
+                        <div>
+                            <label for="endulzante">Selecciona el endulzante que más utilizas</label>
+                            <select name="endulzante" id="">
+                                <option value="azucar">Azúcar</option>
+                                <option value="stevia">Stevia</option>
+                                <option value="miel">Miel</option>
+                                <option value="otro">otro</option>
+                            </select>
+                        </div>
+                        <input type="reset" value="Limpiar formulario">
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+        </section>
+        <div>
+            <section>
+                <table>
+                    <tr>
+                        <th>Jugos</th>
+                        <th>Precios</th>
+                    </tr>
+                    <tr>
+                        <td>Piña</td>
+                        <td>$2000</td>
+                    </tr>
+                    <tr>
+                        <td>Durazno</td>
+                        <td>$2000</td>
+                    </tr>
+                    <tr>
+                        <td>Naranja</td>
+                        <td>$1500</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
